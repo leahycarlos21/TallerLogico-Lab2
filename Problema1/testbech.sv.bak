@@ -1,0 +1,12 @@
+module testbech;
+
+	logic  [3:0] in;
+	logic  [6:0] out;
+	assign in=4'b0000;
+	Problema1  P1(in,out);
+	#10
+	
+	
+
+
+endmodule 
