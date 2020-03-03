@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Music/Laboratorio2/simulation/modelsim
+vcontador
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1583277551
+!i10b 1
+!s100 DV>7^AB032^j3@ZUi36lT3
+IZ=RFcRLMA[^=HMNm:4Z3R3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 contador_sv_unit
+S1
+R0
+w1583273882
+8C:/Users/user/Music/Laboratorio2/contador.sv
+FC:/Users/user/Music/Laboratorio2/contador.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1583277551.000000
+!s107 C:/Users/user/Music/Laboratorio2/contador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user/Music/Laboratorio2|C:/Users/user/Music/Laboratorio2/contador.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/user/Music/Laboratorio2
+Z8 tCvgOpt 0
+vdisplay7
+R1
+R2
+!i10b 1
+!s100 dLKJ9f3aKkefa3KJoVOAC3
+IU;2Z>UN`aKo2bCA0f0UOY0
+R3
+!s105 display7_sv_unit
+S1
+R0
+w1583274685
+8C:/Users/user/Music/Laboratorio2/display7.sv
+FC:/Users/user/Music/Laboratorio2/display7.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Music/Laboratorio2/display7.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user/Music/Laboratorio2|C:/Users/user/Music/Laboratorio2/display7.sv|
+!i113 1
+R6
+R7
+R8
+vproblema3
+R1
+R2
+!i10b 1
+!s100 VJX14HoBM[Y4FGk0ZPBI:0
+IaiEfSifFl0Zadlm?87d4g0
+R3
+!s105 problema3_sv_unit
+S1
+R0
+w1583275048
+8C:/Users/user/Music/Laboratorio2/problema3.sv
+FC:/Users/user/Music/Laboratorio2/problema3.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Music/Laboratorio2/problema3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user/Music/Laboratorio2|C:/Users/user/Music/Laboratorio2/problema3.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+R2
+!i10b 1
+!s100 GiWIaj6b`IRlIaBd_RXkR1
+IJ>M6:O?eo[L;J8oK3a5W31
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1583277332
+8C:/Users/user/Music/Laboratorio2/testbench.sv
+FC:/Users/user/Music/Laboratorio2/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Music/Laboratorio2/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/user/Music/Laboratorio2|C:/Users/user/Music/Laboratorio2/testbench.sv|
+!i113 1
+R6
+R7
+R8

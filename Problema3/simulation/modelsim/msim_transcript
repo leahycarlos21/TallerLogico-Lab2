@@ -1,0 +1,69 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do problema3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/user/Music/Laboratorio2 {C:/Users/user/Music/Laboratorio2/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:11 on Mar 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user/Music/Laboratorio2" C:/Users/user/Music/Laboratorio2/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 17:19:11 on Mar 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user/Music/Laboratorio2 {C:/Users/user/Music/Laboratorio2/contador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:11 on Mar 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user/Music/Laboratorio2" C:/Users/user/Music/Laboratorio2/contador.sv 
+# -- Compiling module contador
+# 
+# Top level modules:
+# 	contador
+# End time: 17:19:11 on Mar 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user/Music/Laboratorio2 {C:/Users/user/Music/Laboratorio2/display7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:11 on Mar 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user/Music/Laboratorio2" C:/Users/user/Music/Laboratorio2/display7.sv 
+# -- Compiling module display7
+# 
+# Top level modules:
+# 	display7
+# End time: 17:19:11 on Mar 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/user/Music/Laboratorio2 {C:/Users/user/Music/Laboratorio2/problema3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:11 on Mar 03,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/user/Music/Laboratorio2" C:/Users/user/Music/Laboratorio2/problema3.sv 
+# -- Compiling module problema3
+# 
+# Top level modules:
+# 	problema3
+# End time: 17:19:11 on Mar 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:19:49 on Mar 03,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.problema3
+# Loading work.contador
+# Loading work.display7
+# ** Warning: (vsim-3015) C:/Users/user/Music/Laboratorio2/problema3.sv(8): [PCDPC] - Port size (4) does not match connection size (2) for port 'in'. The port definition is at: C:/Users/user/Music/Laboratorio2/display7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/DUT/display File: C:/Users/user/Music/Laboratorio2/display7.sv
+add wave -position end  sim:/testbench/rst
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/out
+run
+# End time: 17:20:34 on Mar 03,2020, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
