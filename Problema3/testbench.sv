@@ -2,7 +2,9 @@ module testbench;
 
 
 
-	parameter n = 2;
+	parameter n = 6;
+	//parameter n = 4;
+	//parameter n = 2;
 	logic clk, rst;
 	logic [6:0] out;
 	
@@ -10,12 +12,6 @@ module testbench;
 	
 	
 	initial begin
-	clk = 0; rst = 0;
-	#10
-	clk = 0; rst = 1;
-	#10
-	clk = 0; rst = 0;
-	//n = 4;
 	clk = 0; rst = 0;
 	#10
 	clk = 0; rst = 1;
