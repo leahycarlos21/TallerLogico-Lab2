@@ -1,0 +1,181 @@
+|adder4bit
+a0 => fulladder_ent:fa0.a
+a1 => fulladder_ent:fa1.a
+a2 => fulladder_ent:fa2.a
+a3 => fulladder_ent:fa3.a
+b0 => fulladder_ent:fa0.b
+b1 => fulladder_ent:fa1.b
+b2 => fulladder_ent:fa2.b
+b3 => fulladder_ent:fa3.b
+c0 => fulladder_ent:fa0.cin
+s0 << fulladder_ent:fa0.sum
+s1 << fulladder_ent:fa1.sum
+s2 << fulladder_ent:fa2.sum
+s3 << fulladder_ent:fa3.sum
+cout << fulladder_ent:fa3.cout
+
+
+|adder4bit|fulladder_ent:fa0
+a => xor_ent:p1.a
+a => and_ent:p4.a
+b => xor_ent:p1.b
+b => and_ent:p4.b
+cin => xor_ent:p2.b
+cin => and_ent:p3.b
+sum <= xor_ent:p2.c
+cout <= or_ent:p5.c
+
+
+|adder4bit|fulladder_ent:fa0|xor_ent:p1
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa0|xor_ent:p2
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa0|and_ent:p3
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa0|and_ent:p4
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa0|or_ent:p5
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa1
+a => xor_ent:p1.a
+a => and_ent:p4.a
+b => xor_ent:p1.b
+b => and_ent:p4.b
+cin => xor_ent:p2.b
+cin => and_ent:p3.b
+sum <= xor_ent:p2.c
+cout <= or_ent:p5.c
+
+
+|adder4bit|fulladder_ent:fa1|xor_ent:p1
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa1|xor_ent:p2
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa1|and_ent:p3
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa1|and_ent:p4
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa1|or_ent:p5
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa2
+a => xor_ent:p1.a
+a => and_ent:p4.a
+b => xor_ent:p1.b
+b => and_ent:p4.b
+cin => xor_ent:p2.b
+cin => and_ent:p3.b
+sum <= xor_ent:p2.c
+cout <= or_ent:p5.c
+
+
+|adder4bit|fulladder_ent:fa2|xor_ent:p1
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa2|xor_ent:p2
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa2|and_ent:p3
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa2|and_ent:p4
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa2|or_ent:p5
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa3
+a => xor_ent:p1.a
+a => and_ent:p4.a
+b => xor_ent:p1.b
+b => and_ent:p4.b
+cin => xor_ent:p2.b
+cin => and_ent:p3.b
+sum <= xor_ent:p2.c
+cout <= or_ent:p5.c
+
+
+|adder4bit|fulladder_ent:fa3|xor_ent:p1
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa3|xor_ent:p2
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa3|and_ent:p3
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa3|and_ent:p4
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder4bit|fulladder_ent:fa3|or_ent:p5
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

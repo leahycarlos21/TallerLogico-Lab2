@@ -1,0 +1,106 @@
+# do taller_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /home/isaac/intelFPGA_lite/18.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/isaac/Documents/Proyectos/Adder/or_ent.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:07:54 on Mar 02,2020
+# vcom -reportprogress 300 -93 -work work /home/isaac/Documents/Proyectos/Adder/or_ent.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity or_ent
+# -- Compiling architecture or_arch of or_ent
+# -- Compiling configuration or_conf
+# -- Loading entity or_ent
+# -- Loading architecture or_arch of or_ent
+# End time: 19:07:54 on Mar 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/isaac/Documents/Proyectos/Adder/and_ent.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:07:54 on Mar 02,2020
+# vcom -reportprogress 300 -93 -work work /home/isaac/Documents/Proyectos/Adder/and_ent.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity and_ent
+# -- Compiling architecture and_arch of and_ent
+# -- Compiling configuration and_conf
+# -- Loading entity and_ent
+# -- Loading architecture and_arch of and_ent
+# End time: 19:07:54 on Mar 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/isaac/Documents/Proyectos/Adder/xor_ent.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:07:54 on Mar 02,2020
+# vcom -reportprogress 300 -93 -work work /home/isaac/Documents/Proyectos/Adder/xor_ent.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity xor_ent
+# -- Compiling architecture xor_arch of xor_ent
+# -- Compiling configuration xor_conf
+# -- Loading entity xor_ent
+# -- Loading architecture xor_arch of xor_ent
+# End time: 19:07:54 on Mar 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/isaac/Documents/Proyectos/Adder/fulladder_ent.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:07:54 on Mar 02,2020
+# vcom -reportprogress 300 -93 -work work /home/isaac/Documents/Proyectos/Adder/fulladder_ent.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity fulladder_ent
+# -- Compiling architecture fulladder_arch of fulladder_ent
+# End time: 19:07:54 on Mar 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/isaac/Documents/Proyectos/Adder/adder4bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:07:54 on Mar 02,2020
+# vcom -reportprogress 300 -93 -work work /home/isaac/Documents/Proyectos/Adder/adder4bit.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity adder4bit
+# -- Compiling architecture adder4bit_arch of adder4bit
+# End time: 19:07:55 on Mar 02,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.and_conf
+# vsim work.and_conf 
+# Start time: 19:08:02 on Mar 02,2020
+# Loading std.standard
+# Loading work.and_conf
+# Loading work.and_ent(and_arch)
+vsim work.adder4bit(adder4bit_arch)
+# End time: 19:08:06 on Mar 02,2020, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim work.adder4bit(adder4bit_arch) 
+# Start time: 19:08:06 on Mar 02,2020
+# Loading std.standard
+# Loading work.adder4bit(adder4bit_arch)
+# Loading work.fulladder_ent(fulladder_arch)
+# Loading work.xor_ent(xor_arch)
+# Loading work.and_ent(and_arch)
+# Loading work.or_ent(or_arch)
+force -freeze sim:/adder4bit/a0 1 0
+force -freeze sim:/adder4bit/a2 1 0
+noforce sim:/adder4bit/b3
+force -freeze sim:/adder4bit/b3 1 0
+force -freeze sim:/adder4bit/b2 1 0
+add wave -position end  sim:/adder4bit/a0
+add wave -position end  sim:/adder4bit/a1
+add wave -position end  sim:/adder4bit/a2
+add wave -position end  sim:/adder4bit/a3
+add wave -position end  sim:/adder4bit/b0
+add wave -position end  sim:/adder4bit/b1
+add wave -position end  sim:/adder4bit/b2
+add wave -position end  sim:/adder4bit/b3
+add wave -position end  sim:/adder4bit/c0
+add wave -position end  sim:/adder4bit/s0
+add wave -position end  sim:/adder4bit/s1
+add wave -position end  sim:/adder4bit/s2
+add wave -position end  sim:/adder4bit/s3
+add wave -position end  sim:/adder4bit/cout
+
+run 100
+# End time: 19:14:07 on Mar 02,2020, Elapsed time: 0:06:01
+# Errors: 0, Warnings: 0

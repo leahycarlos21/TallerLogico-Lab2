@@ -1,0 +1,18 @@
+module deco2_4(input A, B,
+					output F0, F1, F2, F3);
+logic [1:0] IN;
+logic [3:0] OUt;
+
+assign IN = {A,B};
+
+always_comb 
+	case (IN)
+	2'b00: OUT = 4'b0001;
+	2'b01: OUT = 4'b0010;
+	2'b10: OUT = 4'b0100;
+	2'b11: OUT = 4'b1000;
+	endcase
+
+assign {F3, F2, F1, F0} = OUT;
+endmodule
+

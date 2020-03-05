@@ -1,0 +1,254 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/isaac/Documents/Proyectos/Adder/simulation/modelsim
+Eadder4bit
+Z1 w1583197640
+R0
+Z2 8/home/isaac/Documents/Proyectos/Adder/adder4bit.vhd
+Z3 F/home/isaac/Documents/Proyectos/Adder/adder4bit.vhd
+l0
+L1
+VUBZk]@bn25oDXJI`nf;H?0
+!s100 jaKHZ1_A6RERoe95Z:9CJ3
+Z4 OV;C;10.5b;63
+31
+Z5 !s110 1583197675
+!i10b 1
+Z6 !s108 1583197674.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/isaac/Documents/Proyectos/Adder/adder4bit.vhd|
+Z8 !s107 /home/isaac/Documents/Proyectos/Adder/adder4bit.vhd|
+!i113 1
+Z9 o-93 -work work
+Z10 tExplicit 1 CvgOpt 0
+Aadder4bit_arch
+DEx4 work 9 adder4bit 0 22 UBZk]@bn25oDXJI`nf;H?0
+l31
+L19
+V9I^]RPCGI71D30i@zgeSP1
+!s100 n0gn56NR_40oHl0kMJZ_n0
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Cand_conf
+eand_ent
+aand_arch
+DAx4 work 7 and_ent 8 and_arch 22 igTX=d=`o1Ai;?]3D7WEb3
+Z11 DEx4 work 7 and_ent 0 22 EMbNHL_jm[O?0YIiReY^E0
+Z12 w1583192811
+R0
+Z13 8/home/isaac/Documents/Proyectos/Adder/and_ent.vhd
+Z14 F/home/isaac/Documents/Proyectos/Adder/and_ent.vhd
+l0
+L12
+V[f6<mHEaT]fjFS<NZNmjK0
+!s100 djbO4fkXkJfm8f<WeBe?O0
+R4
+31
+Z15 !s110 1583197674
+!i10b 0
+R6
+Z16 !s90 -reportprogress|300|-93|-work|work|/home/isaac/Documents/Proyectos/Adder/and_ent.vhd|
+Z17 !s107 /home/isaac/Documents/Proyectos/Adder/and_ent.vhd|
+!i113 1
+R9
+R10
+Eand_ent
+R12
+R0
+R13
+R14
+l0
+L1
+VEMbNHL_jm[O?0YIiReY^E0
+!s100 m[11U8D>jFT2W@>Ja>HJ60
+R4
+31
+R15
+!i10b 1
+R6
+R16
+R17
+!i113 1
+R9
+R10
+Aand_arch
+R11
+l8
+L7
+VigTX=d=`o1Ai;?]3D7WEb3
+!s100 4HUk@:zcY4F`Vm[cXdS]X1
+R4
+31
+R15
+!i10b 1
+R6
+R16
+R17
+!i113 1
+R9
+R10
+Efulladder_ent
+Z18 w1583195803
+R0
+Z19 8/home/isaac/Documents/Proyectos/Adder/fulladder_ent.vhd
+Z20 F/home/isaac/Documents/Proyectos/Adder/fulladder_ent.vhd
+l0
+L1
+Vj1gK?l]91ieFhe>nnT7GF3
+!s100 DaBEI`a5lO^L`E`A2VL<`3
+R4
+31
+R15
+!i10b 1
+R6
+Z21 !s90 -reportprogress|300|-93|-work|work|/home/isaac/Documents/Proyectos/Adder/fulladder_ent.vhd|
+Z22 !s107 /home/isaac/Documents/Proyectos/Adder/fulladder_ent.vhd|
+!i113 1
+R9
+R10
+Afulladder_arch
+DEx4 work 13 fulladder_ent 0 22 j1gK?l]91ieFhe>nnT7GF3
+l30
+L9
+V:K60Zo;C@F5_XdW^YAfJU0
+!s100 HkaWDDAoBHk125b<9dZcL2
+R4
+31
+R15
+!i10b 1
+R6
+R21
+R22
+!i113 1
+R9
+R10
+Cor_conf
+eor_ent
+aor_arch
+DAx4 work 6 or_ent 7 or_arch 22 <d85e>kjaXl_XeZ9`fi3O3
+Z23 DEx4 work 6 or_ent 0 22 G^R@A_1In17g9h9OW_4A60
+Z24 w1583192651
+R0
+Z25 8/home/isaac/Documents/Proyectos/Adder/or_ent.vhd
+Z26 F/home/isaac/Documents/Proyectos/Adder/or_ent.vhd
+l0
+L12
+Vz^mG;4N1BB7`U]AHX3c^90
+!s100 D9U`H[X:i?>ONWfzcbCkC3
+R4
+31
+R15
+!i10b 0
+R6
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/isaac/Documents/Proyectos/Adder/or_ent.vhd|
+Z28 !s107 /home/isaac/Documents/Proyectos/Adder/or_ent.vhd|
+!i113 1
+R9
+R10
+Eor_ent
+R24
+R0
+R25
+R26
+l0
+L1
+VG^R@A_1In17g9h9OW_4A60
+!s100 8EFdS9KjBeRABi>8nKSAk0
+R4
+31
+R15
+!i10b 1
+R6
+R27
+R28
+!i113 1
+R9
+R10
+Aor_arch
+R23
+l8
+L7
+V<d85e>kjaXl_XeZ9`fi3O3
+!s100 c9O;hKK6mHG4X_<^N>7X73
+R4
+31
+R15
+!i10b 1
+R6
+R27
+R28
+!i113 1
+R9
+R10
+Cxor_conf
+exor_ent
+axor_arch
+DAx4 work 7 xor_ent 8 xor_arch 22 ?DbdjlPBLNjP:b>OBJ2n?0
+Z29 DEx4 work 7 xor_ent 0 22 >=F07I;46=QTC@MVPS`fj0
+Z30 w1583193175
+R0
+Z31 8/home/isaac/Documents/Proyectos/Adder/xor_ent.vhd
+Z32 F/home/isaac/Documents/Proyectos/Adder/xor_ent.vhd
+l0
+L12
+VVmP6zVlQjG8m4Ia6U:>f10
+!s100 Z@cHYCafU4nD`_1R7U7952
+R4
+31
+R15
+!i10b 0
+R6
+Z33 !s90 -reportprogress|300|-93|-work|work|/home/isaac/Documents/Proyectos/Adder/xor_ent.vhd|
+Z34 !s107 /home/isaac/Documents/Proyectos/Adder/xor_ent.vhd|
+!i113 1
+R9
+R10
+Exor_ent
+R30
+R0
+R31
+R32
+l0
+L1
+V>=F07I;46=QTC@MVPS`fj0
+!s100 JZ7USFDQ?8cZ?ld0ChmLm1
+R4
+31
+R15
+!i10b 1
+R6
+R33
+R34
+!i113 1
+R9
+R10
+Axor_arch
+R29
+l8
+L7
+V?DbdjlPBLNjP:b>OBJ2n?0
+!s100 ghd`Ez?Q:BN^JnfS=5Ez61
+R4
+31
+R15
+!i10b 1
+R6
+R33
+R34
+!i113 1
+R9
+R10
